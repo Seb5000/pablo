@@ -1,0 +1,138 @@
+.form-container {
+  /* background-color: aquamarine; */
+  padding: 5rem;
+}
+
+.form {
+  max-width: 80rem;
+  margin: auto;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+}
+
+.form-title {
+  border-top: 0.8rem solid #1f4e78;
+  border-bottom: 0.8rem solid #1f4e78;
+  text-align: center;
+}
+
+.form-title-main {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.form-title-sub {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.wrapper {
+  padding: 0.5rem 3rem;
+}
+
+.form-section {
+  background-color: #ddebf7;
+  /* padding: 0.5rem; */
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  display: flex;
+  /* background-color: darkblue; */
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.label {
+  flex-basis: 18rem;
+  max-width: 50%;
+  /* background-color: red; */
+  text-align: right;
+  color: #1f4e78;
+}
+
+.custom-input {
+  /* flex-basis: 20rem; */
+  /* background-color: chocolate; */
+  display: grid;
+  grid-template-columns: 1fr minmax(2rem, 20%);
+  /* grid-template-rows: 2rem 0.8rem; */
+  grid-template-rows: auto;
+  gap: 0.3rem;
+  /* overflow: hidden; */
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-input > input {
+  /* max-width: 8rem; */
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-section-grid {
+  background-color: #ddebf7;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.grid-title {
+  grid-row: 1;
+  grid-column: 1 / -1;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.results-container {
+  border-top: 0.6rem solid #1f4e78;
+  border-bottom: 0.6rem solid #1f4e78;
+}
+
+.resultados-flex {
+  display: flex;
+  gap: 1rem;
+}
+.capital-necesario {
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultados-texto {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.title-text {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #1f4e78;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bg-green {
+  background-color: #c6efce;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
