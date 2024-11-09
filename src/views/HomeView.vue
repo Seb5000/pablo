@@ -51,6 +51,7 @@ onMounted(() => {
         </div>
         <div class="form-title-sub">
           (EN FUNCION DEL RIESGO Y EL APALANCAMIENTO)
+          <RouterLink to="/prueba">Prueba</RouterLink>
         </div>
       </div>
       <div class="wrapper">
